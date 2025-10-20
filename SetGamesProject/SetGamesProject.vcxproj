@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a4533021-1655-4bb3-adc1-a677489c53e0}</ProjectGuid>
-    <RootNamespace>SetGames</RootNamespace>
+    <ProjectGuid>{5086c6cf-9612-4227-9f60-6f2b5901b8a3}</ProjectGuid>
+    <RootNamespace>SetGamesProject</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="SetGames.cpp" />
+    <ClCompile Include="SetGamesProject.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

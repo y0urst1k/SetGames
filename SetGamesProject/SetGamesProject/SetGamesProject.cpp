@@ -1,27 +1,31 @@
 ﻿#include <iostream>
-#include "Modules/The Hero's Way/THW.h"
+#include "THW.h"
 
 using std::cin;
 using std::cout;
+using std::endl;
 
 void PrintMenu()
 {
     WriteSeparator(50);
     cout << "Во что поиграем?" << endl
         << "1.The Hero's Way" << endl
-        << "0.Хочу выйти";
+        << "0.Хочу выйти"<< endl;
     WriteSeparator(50);
-    cout << "Ваш выбор: ";
 }
 
 int main()
 {
+    setlocale(LC_ALL, "Russian");
     int choice = -1;
 
     while (true)
     {
         PrintMenu();
         cin >> choice;
+
+        WriteSeparator(50);
+
         if (choice == 0)
         {
             cout << "До свидания!" << endl;
@@ -29,7 +33,7 @@ int main()
         }
         switch (choice)
         {
-        case 0:
+        case 1:
             Episode1();
             break;
         default:
