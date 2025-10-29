@@ -78,7 +78,7 @@ void playSlotMachine() {
                 }
 
                 cout << "Барабан " << (i + 1) << ": " << selectedSymbol
-                    << " (" << symbolName << ")" << endl;
+                    << "(" << symbolName << ")" << endl;
             }
 
             cout << "Результат: ";
