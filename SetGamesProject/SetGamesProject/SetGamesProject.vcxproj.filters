@@ -21,9 +21,15 @@
     <ClCompile Include="THW.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Casino.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="THW.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Casino.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
