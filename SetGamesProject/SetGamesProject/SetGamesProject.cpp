@@ -30,7 +30,7 @@ int main()
 
         if (choice == 0)
         {
-            cout << "До свидания!" << endl;
+            cout << "До свидания! Хорошего дня!" << endl;
             break;
         }
         switch (choice)
