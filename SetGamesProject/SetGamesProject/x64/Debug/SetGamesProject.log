@@ -1,1 +1,5 @@
-﻿  SetGamesProject.vcxproj -> C:\Users\Катя\Desktop\Учеба\Введение в проф. дея-ть\SetGames\SetGamesProject\x64\Debug\SetGamesProject.exe
+﻿  SetGamesProject.cpp
+  THW.cpp
+C:\Games\pizdec\SetGamesProject\SetGamesProject\THW.cpp(75,14): warning C4566: символ, представленный универсальным именем символа "\u2011", невозможно представить в текущей кодовой странице (1251)
+  Создание кода...
+  SetGamesProject.vcxproj -> C:\Games\pizdec\SetGamesProject\x64\Debug\SetGamesProject.exe

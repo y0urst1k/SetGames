@@ -124,9 +124,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="SetGamesProject.cpp" />
+    <ClCompile Include="Casino.cpp" />
     <ClCompile Include="THW.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Casino.h" />
     <ClInclude Include="THW.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
