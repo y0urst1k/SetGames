@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include "THW.h"
+#include "Casino.h"
 
 using std::cin;
 using std::cout;
@@ -10,6 +11,7 @@ void PrintMenu()
     WriteSeparator(50);
     cout << "Во что поиграем?" << endl
         << "1.The Hero's Way" << endl
+        << "2. Casino" << endl
         << "0.Хочу выйти"<< endl;
     WriteSeparator(50);
 }
@@ -36,6 +38,12 @@ int main()
         case 1:
             Episode1();
             break;
+        case 2:
+        {
+            showSlotRules();
+            playSlotMachine();
+            break;
+        }
         default:
             cout << "Упс! Игра не найдена, повторите попытку" << endl;
             break;
